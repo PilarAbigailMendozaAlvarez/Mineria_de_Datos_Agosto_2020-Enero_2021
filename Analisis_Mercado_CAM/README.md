@@ -12,9 +12,17 @@ los establecimientos a **≤ 30 minutos de traslado** (se mide en tiempo, no en 
 - **5 mapas por ubicación**: uno general y uno por categoría (CAM de consulta externa, clínicas de especialidad,
   laboratorios y gabinetes de imagen). El icono indica la categoría y el color el subtema (por ejemplo, laboratorio
   de **cadena** – Chopo, Salud Digna u otra nacional – frente a laboratorio **local**). Cada subtema se puede ocultar o mostrar.
-- **Excel por ubicación**: metodología, resumen por subtema y banda de tiempo (0-10, 10-20 y 20-30 min), y una hoja por categoría con
-  los campos del estudio (nombre, dirección, horarios, especialidades, laboratorio o imagen en el sitio, cadena y sucursales,
-  tipos de estudio, etc.).
+- **Excel por ubicación** con **4 tablas** (una hoja por categoría). Todas comparten las mismas columnas fijas:
+  nombre, ubicación (dirección), tiempo al punto central, distancia por ruta y rango de tiempo. Después vienen la
+  **categoría** y la **subcategoría** (tipo de consultorio, cadena o independiente, especialidad o estudio principal),
+  y al final los **datos importantes** de cada categoría:
+  - CAM de consulta externa: número de consultorios, especialidades ofrecidas, horarios, laboratorio dentro del sitio, imagen dentro del sitio.
+  - Clínicas de especialidad: especialidad, número aproximado de médicos, servicios complementarios, horarios.
+  - Laboratorios: alcance (cadena o independiente), cadena o marca, sucursales en la zona, horarios, servicios más relevantes.
+  - Imagenología: tipos de estudio, horarios.
+
+  Cierran cada tabla columnas de referencia (teléfono, sitio web, calificación, coordenadas y link al mapa). También
+  hay una hoja de resumen y otra de metodología.
 - **Excel comparativo** San Lucas vs San José.
 
 ## Uso
